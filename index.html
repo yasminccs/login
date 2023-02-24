@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="img/robo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+
+        <section><img id="ft" src="img/predio.jpg" alt="ft geral"></section>
+
+    <form action="cadastro.js" method="post" id="container" autocomplete="on">
+
+        <header id="initial">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações necessárias.</p>
+        </header>
+
+        <div id="inputs">
+            <div id="inputEmail">
+                <span class="material-icons" id="p">&#xe7fd;</span>
+                <input title="Preencha este campo." type="email" placeholder="seu e-mail" autocomplete="email" name="email" id="email" required>
+            </div>
+
+            <div id="inputPassword">
+                <span class="material-icons" id="c">&#xe73c;</span>
+                <input title="Preencha este campo." type="password" autocomplete="current-password" placeholder="sua senha" name="password" id="password" minlength="8" required>
+            </div>
+        </div>
+
+        <div id="btns">
+            <button id="enter" type="submit">Entrar</button>
+            <button id="loss" type="submit">Esqueci a senha <span class="material-icons" id="mail">
+                mail
+            </span></button>
+        </div>
+        
+    </form>
+    </main>
+</body>
+</html>
